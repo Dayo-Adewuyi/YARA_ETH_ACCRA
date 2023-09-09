@@ -1,38 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## YARAPAY
 
-## Getting Started
+Yarapay is a simple, easy-to-use, and secure application for managing your digital assets. It allows you to send and receive payments, pay bills and manage your assets in a secure way.
+Yarapay seeks to increase the adoption of the Ethereum blockchain in Nigeria.
 
-First, run the development server:
+### Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- LOGIN WITH WALLET - Users who already possess a wallet (EOA) can login into the app by connecting their wallet.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- CREATE ETHEREUM WALLET WITH PHONE NUMBER - Yarapay leverages account abstraction (EIP 4337) to create wallet addresses and match them with users' phone numbers.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- USSD (Unstructured Supplementary Service Data) - With Yarapay, people with no internet penetration can send/receive money in their traditional bank account through our USSD infrastructure, enabling them to interact with our app by dialling codes on their phones.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- SENDING DIGITAL ASSETS TO PHONE NUMBERS- With Yarapay, you can send money to any phone number anywhere in the world.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- SENDING DIGITAL ASSETS TO WALLET ADDRESSES -  Users can send digital assets to any Ethereum wallet address (EOAs etc)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- RECEIVE PAYMENTS - With Yarapay, users can receive payments by sharing a QR CODE, phone number or generated Wallet addresses
 
-## Learn More
+- OFF RAMP FOR DIGITAL ASSETS - Users convert digital assets to FIAT
 
-To learn more about Next.js, take a look at the following resources:
+- PAYMENTS WITH DIGITAL ASSETS - Users can pay for their electricity bills, buy airtime, pay internet bills and so many more with their digital assets
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- VIEW HISTORICAL TRANSACTIONS -  Yarapay utilizes THE GRAPH to listen to transfer events and use the data returned to create a view of each user's past transactions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### TECH STACK
 
-## Deploy on Vercel
+GOERLI ETHEREUM
+THE GRAPH
+SOLIDITY
+NEXTJS
+TYPESCRIPT
+BICONOMY SDK
+CIRCLE PAYOUT API
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### LIVE LINK
+
+yara-eth-accra.vercel.app/dashboard
+
+### DEMO
+
+https://www.loom.com/share/bbc864612fa543e99017a5235ed48668?sid=03c12988-7c2e-4a92-84ea-3215a90c71e8
+
+### ROADMAP
+
+- INCREASE USSD COVERAGE TO MORE COUNTRIES IN AFRICA
+- PHONE NUMBER VALIDATION
+- PUBLIC LAUNCH
+
+
+
+
