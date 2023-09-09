@@ -12,7 +12,7 @@ const Hero = () => {
         </h1>
         <p className="text-center text-[#8E8F94] lg:text-left lg:text-lg mt-4">
           Web 3 just as you know it! Make Your Transactions Faster, Cheaper, and
-          More Secure with Our App!"
+          More Secure with Our App
         </p>
 
         {/* Sign up button */}
