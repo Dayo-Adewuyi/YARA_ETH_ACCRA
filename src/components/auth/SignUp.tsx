@@ -34,11 +34,18 @@ export default function SignInPage() {
     e.preventDefault();
     try {
 
-      console.log(signUpForm);
+      const res = await signUpWithEmail({
+        email: signUpForm.email,
+        username: signUpForm.username,
+        password: signUpForm.password,
+      });
+
+      return alert("we have not yet onboarded your network provider, check back soon")
   
       router.push("/dashboard");
     } catch (error) {
       console.log("rejected", error);
+      
     }
   };
 
