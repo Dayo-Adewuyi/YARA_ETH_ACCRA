@@ -42,6 +42,9 @@ yara-eth-accra.vercel.app/dashboard
 
 https://www.loom.com/share/bbc864612fa543e99017a5235ed48668?sid=03c12988-7c2e-4a92-84ea-3215a90c71e8
 
+### SUBGRAPH
+https://api.studio.thegraph.com/query/52426/usdc/0.2
+
 ### ROADMAP
 
 - INCREASE USSD COVERAGE TO MORE COUNTRIES IN AFRICA
